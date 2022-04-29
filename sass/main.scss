@@ -1,5 +1,9 @@
 
-// Base style
+// Utils
+
+@import "./utils/vars";
+
+// Base styles
 @import "./base/base";
 @import "./base/reset";
 @import "./base/typography";
@@ -7,7 +11,16 @@
 // Components style
 @import "./components/btn";
 
+// Layouts style
+@import "./layouts/header";
+@import "./layouts/footer";
 
-@import "./components/header";
-@import "./components/hero;
+
+// Section components
+@import "./components/hero";
+@import "./components/feature";
+@import "./components/work";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/portfolio";
 
